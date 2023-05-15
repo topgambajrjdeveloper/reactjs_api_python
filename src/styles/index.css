@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  flex: 1;
+}
+.map .leaflet-container {
+  height: 89vh !important;
+  width: 100vw !important;
+  z-index: 1;
+}
+.slider{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1 !important;
+}
+.card{
+  background-color: '#fff';
+  border-top-left-radius: 5;
+  border-top-right-radius: 5;
+  margin-top: 7; 
+  z-index: 1;  
+}
+.tag {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: '#fff'
+}
+
+.category-color .tag:nth-child() {
+  margin-left: 0 !important;
+}
